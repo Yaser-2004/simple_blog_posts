@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post</title>
+    <link rel="stylesheet" href="/styles_np.css">
+</head>
+<body>
+
+    <div class="container">
+        <div class="createnew">
+            <form action="/create" method="post">
+                <h1>Create New Post</h1>
+                <input type="text" name="title" placeholder="Title" required>
+                <input type="text" name="category" placeholder="Category" required>
+                <textarea placeholder="Content" rows="9" name="content" required></textarea>
+                <input type="text" name="author" placeholder="Your Name" required>
+                <input type="submit" value="Create" id="submit">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
